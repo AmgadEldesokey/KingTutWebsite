@@ -74,7 +74,10 @@ getAllClasses()
 
         <p className=' font-mono border-black  hover:text-yellow-700 cursor-default text-black'>kingtut-trading Contact</p>
         <div className='flex flex-row '>
-          <AiOutlineFacebook size={50} className='hover:text-yellow-500 hover:cursor-pointer text-black'></AiOutlineFacebook>
+          <a href='https://www.facebook.com/profile.php?id=100065167503714&mibextid=LQQJ4d'>
+            <AiOutlineFacebook size={50} className='hover:text-yellow-500 hover:cursor-pointer text-black'></AiOutlineFacebook>
+          </a>
+          
           <AiOutlineMobile onClick={() => setPopUpPopUpData('+20 122 990 3406')} size={50} className='hover:text-yellow-500 hover:cursor-pointer text-black'></AiOutlineMobile>
           <AiOutlineMail onClick={() => setPopUpPopUpData('Kingtuttrading@gmail.com')} size={50} className='hover:text-yellow-500 hover:cursor-pointer text-black'></AiOutlineMail>
         </div>
